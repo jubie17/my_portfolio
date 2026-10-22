@@ -1,0 +1,136 @@
+/* Header */
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: green;
+    text-align: center;
+    font-family: Arial;
+}
+/* Navigation */
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Sections */
+section {
+    background-color:white;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+
+/* Paragraph */
+p {
+    font-family: Arial;
+    font-size: 12pt;
+    line-height: 1.5; 
+}
+
+/* Image */
+img {
+    border: 3px solid green;
+    border-radius: 50%;
+}
+
+/*  MY Projects Section  */
+.intro {
+    max-width: 850px;
+    margin: 0 auto 30px;
+    color: slategrey;
+    font-size: 16px;
+    text-align: center;
+}
+
+.projects-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-color: darkgreen;
+}
+
+.project-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 3px solid green; 
+}
+
+.project-card h3 {
+    color: darkgreen;
+    font-size: 15px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+/* Form */
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
