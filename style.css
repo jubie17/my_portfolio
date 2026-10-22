@@ -28,6 +28,18 @@ nav a {
     margin: 10px;
 }
 
+/* my profile */
+.profile-pic{
+    width: 180px;
+    height:180px;
+    object-fit:cover;
+    border-radius: 50%;
+    display: block;
+    margin:20 px auto;
+}
+
+
+
 /* Sections */
 section {
     background-color:white;
@@ -46,16 +58,11 @@ p {
     line-height: 1.5; 
 }
 
-/* my profile */
-.profile-pic{
-    width: 180px;
-    height:180px;
-    object-fit:cover;
+/* Image */
+img {
+    border: 3px solid green;
     border-radius: 50%;
-    display: block;
-    margin:20 px auto;
 }
-
 
 /*  MY Projects Section  */
 .intro {
@@ -102,7 +109,6 @@ p {
     margin: 5px 0;
     text-align: center;
 }
-
 @media (max-width: 900px) {
     .projects-container {
         grid-template-columns: repeat(2, 1fr); 
